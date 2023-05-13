@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ *{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Roboto', sans-serif;}
+
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, grey, rgba(150, 199, 15, 0.589));
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 25px 50px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(150, 199, 15, 0.589);
+    z-index: 3;
+}
+.signup-header h1{
+    font-size: 2rem;
+    color: black;
+}
+
+.signup-header p{
+    
+    font-size: 1rem;
+    color: rgb(168, 168, 168);
+    
+}
+
+
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+
+    margin: 12px 0;
+}
+
+.signup-body label{
+    display: block;
+}
+.signup-body input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(255, 72, 0, 0.842);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+
+#submit{
+    background-color:  rgba(92, 121, 12, 0.589) ;
+
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color:  rgba(61, 82, 5, 0.589) ;
+}
+
+.signup-footer p{
+color: rgba(61, 82, 5, 0.589);
+text-align: center;
+
+}
+
+.signup-footer a{
+   
+    color: rgba(61, 82, 5, 0.589);
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,  rgba(92, 121, 12, 0.589),  rgba(253, 251, 251, 0.589)) ;
+    position: absolute;
+}
+
+.c1{
+    top: 30px;
+    left: 20px;
+}
+
+.c2{
+    bottom: 30px;
+    right: 25px;
+}
